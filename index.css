@@ -84,7 +84,7 @@ s .nav-list-element a {
 }
 
 #carousel li {
-    margin: -20.4px;
+    margin: -20.8px;
     opacity: 0;
     transition: all 1s;
 }
