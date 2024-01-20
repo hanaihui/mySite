@@ -5,8 +5,8 @@
 }
 
 @font-face{
-    font-family:"江城斜宋体";
-    src:url("font\江城斜宋体900W.ttf");
+    font-family:"900W";
+    src:url("font\900W.ttf");
 }
 
 body {
@@ -74,9 +74,8 @@ s .nav-list-element a {
 }
 
 #name {
-    font-size: 30px;
-    font-family: "江城斜宋体";
-    margin-bottom: 20.4px;
+    width: 400px;
+    margin: 50px 0;
 }
 
 #carousel{
