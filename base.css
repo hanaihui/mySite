@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    color:white ;
+    color: white;
 }
 
 body {
@@ -10,7 +10,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
+
 }
 
 ul,
@@ -23,6 +23,7 @@ a {
     text-decoration: none;
     cursor: pointer;
     color: #ffffff;
+    display:block;
 }
 
 .nav-list {
@@ -43,7 +44,7 @@ a {
     text-align: center;
     transition: all 0.5s;
     line-height: 30px;
-    border-radius:10px ;
+    border-radius: 10px;
 }
 
 .nav-list-element:hover {
