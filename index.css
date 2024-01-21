@@ -1,70 +1,11 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    color:white ;
-}
-
-@font-face{
-    font-family:"900W";
-    src:url("font\900W.ttf");
-}
 
 body {
-    height: 100vh;
-    background-image: url(img/background2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-ul,
-ol,
-li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    cursor: pointer;
-    color: #ffffff;
-}
-
-.nav-list {
-    display: flex;
-
-
-    width: 100vw;
-    height: 60px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    backdrop-filter: blur(5px);
-}
-
-.nav-list-element {
-    display: inline-block;
-    width: 60px;
-    height: 30px;
-    margin: auto 30px;
-    text-align: center;
-    transition: all 0.5s;
-    line-height: 30px;
-    border-radius:10px ;
-}
-
-.nav-list-element:hover {
-    background-color: gray;
-}
-
-s .nav-list-element a {
-    font-size: 14px;
-    text-shadow: 0 0 2px black;
-    text-align: center;
-}
 
 .photo {
     width: 100px;
@@ -72,13 +13,45 @@ s .nav-list-element a {
     border-radius: 100%;
 }
 
+
 #name {
     width: 400px;
     margin: 50px 0;
+    position: relative;
+    animation: download1 1s ease;
+}
+
+
+@keyframes download1 {
+    0%{
+        bottom: 50px;
+        opacity: 0;
+    }
+
+
+    100%{
+        bottom: 0px;
+        opacity: 1;
+    }
 }
 
 #carousel{
     text-align: center;
+    position: relative;
+    animation: download2 2s ease;
+}
+
+@keyframes download2 {
+    0%{
+        top: 50px;
+        opacity: 0;
+    }
+
+
+    100%{
+        top: 0px;
+        opacity: 1;
+    }
 }
 
 #carousel li {
