@@ -10,7 +10,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
+    z-index:-1;
 }
 
 ul,
@@ -51,7 +51,7 @@ a {
     background-color: gray;
 }
 
-s .nav-list-element a {
+.nav-list-element a {
     font-size: 14px;
     text-shadow: 0 0 2px black;
     text-align: center;
