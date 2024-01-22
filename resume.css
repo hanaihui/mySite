@@ -1,0 +1,26 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#up{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+#down{
+    display:flex;
+    flex:1;
+}
+
+#down-left{
+    display:flex;
+    flex:1;
+}
+#down-right{
+    display:flex;
+    flex:1;
+}
