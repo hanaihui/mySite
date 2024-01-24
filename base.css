@@ -25,6 +25,7 @@ a {
     cursor: pointer;
     color: #ffffff;
     display:block;
+    width: 100%;
 }
 
 .nav-list {
