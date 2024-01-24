@@ -41,6 +41,7 @@ body{
     font-weight: bolder;
     font-family: "宋体";
     text-shadow: 1px 1px 1px black;
+    margin-bottom: 10px;
 }
 
 .content{
@@ -48,4 +49,5 @@ body{
     font-weight: bold;
     font-family: "宋体";
     text-shadow: 1px 1px 1px black;
+    line-height: 25px;
 }
