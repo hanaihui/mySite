@@ -1,12 +1,9 @@
-body{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-#container{
-    background: rgba(16,16,16, 0.2);
+#up,#down{
+    margin: 20px;
+    background:linear-gradient(to right,rgba(86,113,143,0.5),rgba(108,192,203,0.5));
+    backdrop-filter:blur(1px);
+    border: 2mm outset rgba(48, 117, 196, 0.5);
+    animation: appear 4s ease;
 }
 
 #up{
@@ -19,35 +16,9 @@ body{
 
 #down{
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex:1;
-}
-
-#down-left{
-    display: flex;
+    justify-content: flex-start;
     flex-direction: column;
+    align-items: center;
     flex:1;
 }
 
-#down-right{
-    display: flex;
-    flex-direction: column;
-    flex:1;
-}
-
-.title{
-    font-size: 30px;
-    font-weight: bolder;
-    font-family: "宋体";
-    text-shadow: 1px 1px 1px black;
-    margin-bottom: 10px;
-}
-
-.content{
-    font-size: 20px;
-    font-weight: bold;
-    font-family: "宋体";
-    text-shadow: 1px 1px 1px black;
-    line-height: 25px;
-}

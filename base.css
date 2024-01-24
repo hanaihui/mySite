@@ -57,3 +57,27 @@ a {
     text-shadow: 0 0 2px black;
     text-align: center;
 }
+
+.title,.content{
+    font-family: "宋体";
+    text-shadow: 1px 1px 1px black;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.content{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
